@@ -153,7 +153,7 @@ public class DecrypterA extends javax.swing.JFrame {
         // TODO add your handling code here:
         
        String txt =dscr.getText();
-  String txtup = txt.toUpperCase();
+  String txtup = txt;
   String code =key.getText(),inc="",time="";
   char ch;
   int id=0,time1=0;
@@ -198,7 +198,33 @@ public class DecrypterA extends javax.swing.JFrame {
    'W',
    'X',
    'Y',
-   'Z','1','2','3','4','5','6','7','8','9','0'
+   'Z','1','2','3','4','5','6','7','8','9','0',
+   'a',
+   'b',
+   'c',
+   'd',
+   'e',
+   'f',
+   'g',
+   'h',
+   'i',
+   'j',
+   'k',
+   'l',
+   'm',
+   'n',
+   'o',
+   'p',
+   'q',
+   'r',
+   's',
+   't',
+   'u',
+   'v',
+   'w',
+   'x',
+   'y',
+   'z','!','@','#','$','%','^','&','*','(',')','-','+'
   };
 
  int num=0;

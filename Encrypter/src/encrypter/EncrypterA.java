@@ -139,9 +139,9 @@ return encrypt1;
         // TODO add your handling code here:
         String orig= enscr.getText();
         
-        String txt = orig;
+        String txtup = orig;
   String code;
-  String txtup = txt.toUpperCase();
+  //String txtup = txt.toUpperCase();
   int z=0,ID=0,check=0;
  while(ID<100 && check< 100 && ID!=35){
   ID=(int) (Math.random() * 34932);
@@ -188,6 +188,32 @@ return encrypt1;
    'X',
    'Y',
    'Z','1','2','3','4','5','6','7','8','9','0'
+   ,'a',
+   'b',
+   'c',
+   'd',
+   'e',
+   'f',
+   'g',
+   'h',
+   'i',
+   'j',
+   'k',
+   'l',
+   'm',
+   'n',
+   'o',
+   'p',
+   'q',
+   'r',
+   's',
+   't',
+   'u',
+   'v',
+   'w',
+   'x',
+   'y',
+   'z','!','@','#','$','%','^','&','*','(',')','-','+'
   };
 
  int num=0;
@@ -203,7 +229,7 @@ encrText.setText(str2.toString());
 enkey.setText("Your Encryption Key is "+ code);
 JFrame f;                          
 f=new JFrame();  
-JOptionPane.showMessageDialog(f,"Please Keep Encryption Key Safe With You!"); 
+//JOptionPane.showMessageDialog(f,"Please Keep Encryption Key Safe With You!"); 
 
 
     }//GEN-LAST:event_btn_enActionPerformed
