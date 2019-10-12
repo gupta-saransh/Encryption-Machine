@@ -13,4 +13,4 @@ The user then needs to enter the encrypted gibberish and the encryption key, in 
 ![Decrypter](decryptss.JPG)
 
 Made With Love Using Java Swings!
-Feel free to clone it and import it into netbeans/eclipse to store some really secret information in a really stealthy way!
+Feel free to clone it and import it into netbeans/eclipse to store some really secret information in a really stealthy way!feel secured.
